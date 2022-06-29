@@ -20,7 +20,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px; 
-    color: #fce138;
+    color: #ffc83d;
     margin: 0;
     display: inline;
 
@@ -28,7 +28,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: #ffc83d;
 }
 
 header nav {
@@ -48,7 +48,7 @@ header nav ul li a {
 }
 
 footer {
-    background: #fce138;
+    background: #ffc83d;
     width: 100%;
     padding: 40px 35px;
 }
@@ -77,4 +77,14 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
+    background-size: cover;
+    background-position: c;
+}
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
 }
