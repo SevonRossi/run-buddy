@@ -72,9 +72,6 @@ footer a {
     color: #024e76;
 }
 
-section {
-    padding: 60px;
-}
 /* homepage hero style starts */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -333,5 +330,7 @@ section {
 .contact-info a {
   color: var(--primary-color);
 }
+
+
 
 
