@@ -75,7 +75,7 @@ footer a {
 section {
     padding: 60px;
 }
-/* hero style starts */
+/* homepage hero style starts */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -83,6 +83,9 @@ section {
     background-position: center;
     position: relative;
 }
+
+
+/* */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -330,4 +333,5 @@ section {
 .contact-info a {
   color: var(--primary-color);
 }
+
 
