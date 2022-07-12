@@ -13,9 +13,9 @@ body {
 }
 
 header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
+    
+   
+    }
 
 header h1 {
     font-weight: bold;
@@ -82,6 +82,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+    
 }
 
 
@@ -335,3 +336,23 @@ section {
 }
 
 
+/*                                                   Run-buddy homepage 2.0                           */
+
+
+.hero-cta h2 {
+    color:#ffc83d;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    
+}
+
+.hero-cta {
+    color: white;
+    display: inline-block;
+    text-align: right;
+    width: 900px;
+    padding-left: 200px;
+    margin-top: 50px;
+    font-size: 16px;
+}
