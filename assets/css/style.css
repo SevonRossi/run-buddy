@@ -13,16 +13,20 @@ body {
 }
 
 header {
-    
+        padding: 20px 35px;
+        background-color: #39a6b2;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
    
     }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px; 
-    color: #ffc83d;
-    margin: 0;
-    display: inline;
+        font-weight: bold;
+            margin: 0;
+            font-size: 36px;
+            color: #fce138
+    
 
 }
 
@@ -32,15 +36,15 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
 header nav ul li {
-    display: inline;
+        display: inline;
 }
 
 header nav ul li a {
+    padding: 10px 15px;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -86,7 +90,7 @@ section {
 }
 
 
-/* */
+/* hero-form */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -247,29 +251,16 @@ section {
 }
 /* Reach out style starts */
 .contact {
-    background-color: #024e76;
-       text-align: center;
-    
+    text-align: center;
+    background: #024e76;
 }
 
 .contact h2 {
-    color:#fce138
-}
-
-
-.contact-info {
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact-info>* {
-    flex: 1;
-    margin: 15px;
+    color: #fce138;
 }
 
 .contact-info iframe {
-
+    width: 400px;
     height: 400px;
 }
 
@@ -295,44 +286,8 @@ section {
     font-style: normal;
 }
 
-.contact-form input,
-.contact-form textarea {
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--secondary-color);
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 5px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  background-color: rgba(255, 255, 255, 1);
-  outline: none;
-}
-
-.contact-form button {
-  width: 100%;
-  border: none;
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 15px 0;
-  font-size: 16px;
-  border-radius: 10px;
-}
-
-.contact-form button:hover {
-  color: var(--primary-color);
-  background: var(--tertiary-color);
-}
-
 .contact-info a {
-  color: var(--primary-color);
+    color: #fce138;
 }
 
 
