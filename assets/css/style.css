@@ -57,20 +57,21 @@ footer {
     background: #ffc83d;
     width: 100%;
     padding: 40px 35px;
+
  
 }
 
 footer h2 {
-    display:inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
-    text-align: right;
 }
 
 footer a {
@@ -83,24 +84,18 @@ section {
 /* homepage hero style starts */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
-
 /* hero-form */
 
 .hero-form {
     border: 3px solid #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
 }
@@ -138,9 +133,6 @@ section {
 
 /* Hero style ends */
 
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -294,21 +286,19 @@ section {
 
 /*                                                   Run-buddy homepage 2.0                           */
 
+  .hero-cta h2 {
+      font-style: italic;
+      font-size: 55px;
+      color: #fce138;
+      width: 40%;
+      margin: 3.5%;
+  }
 
-.hero-cta h2 {
-    color:#ffc83d;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 30px;
-    
-}
-
-.hero-cta {
-    color: white;
-    display: inline-block;
-    text-align: right;
-    width: 900px;
-    padding-left: 200px;
-    margin-top: 50px;
-    font-size: 16px;
-}
+  .hero-cta {
+      width: 35%;
+      text-align: right;
+      margin: 3.5%;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.3;
+  }
