@@ -534,8 +534,11 @@ header nav ul li a:hover {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> c7706c015b4091ef242f796f4a98c2d37457c76f
 .contact-form:focus {
     background-color: rgba(255, 255, 255, 1);
         outline: none;
@@ -639,5 +642,10 @@ div {
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
 }
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+
+
+>>>>>>> c7706c015b4091ef242f796f4a98c2d37457c76f
 
