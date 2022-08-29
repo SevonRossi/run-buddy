@@ -7,41 +7,66 @@
     <title>Run Buddy</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-</head>
 
+</head>
+<header>
+ 
+    <h1>
+        <a href="/"> RUN BUDDY</a>
+    </h1>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#what-we-do">What We Do</a>
+            </li>
+
+            <li>
+
+                <a href="#what-you-do">What You Do</a>
+            </li>
+            <li>
+
+                <a href="#your-trainers">Your Trainers</a>
+            </li>
+            <li>
+                <a href="#reach-out">Reach out</a>
+            </li>
+        </ul>
+    </nav>
+</header>
     <body>
     
-        <header>
-             <h1 style="color: blue; font-size: 100px;">
-                <a href="/"> RUN BUDDY</a>
-            </h1>
-             <nav>
-          
-            <ul>
-
-                   <li>
-              
-                   <a href="#what-we-do">What We Do</a>
-                  </li>
-
-                  <li>
-
-                    <a href="#what-you-do">What You Do</a>  
-                 </li>
-                 <li>
-
-                    <a href="#your-trainers">Your Trainers</a>
-                 </li>
-                 <li>
-                    <a href="#reach-out">Reach out</a>
-                 </li>
-            </ul>
-             </nav>
-
-            </header>
+       
       <!-- hero section  -->
+
+     
+
              <section class="hero">
+
+                </header>
+<div class="hero-cta">
+    
+        <h2>Start Building <br />Habits.</h2>
+    <p>seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion<br/>
+         axe occupy readymade put a bird on it
+        messenger bag<br/>
+        Wes Anderson Schilitz plaid Bushwick church-key lo-fi skateboard<br/> slow-carb hashtage trust fund Williamsburg
+        biodiesel fixie
+        farm-to-table 8-bit banjo XOXO Banks chiliwave bicycle rights tetro <br />cliche tattoooed bespoke irony mumble core
+        Shoreditch deep v<br />
+        polaroid McSweeney's bitters cray gentrify tofu Marfa you<br /> probably havnt't heard of them yr banh mi asymmetrical
+        art party selvage
+        letterpress High life.
+    </p>
+
+</div>
+
+
+
                  <div class="hero-form">
+
+             
                     <h3>Get Started Today</h3>
                     <p>Fill out this form and one of our trainers will schedule a consult</p>
                     <form>
@@ -51,19 +76,23 @@
                         <input type="email" placeholder="Your email" name="email" id="email" class="form-input"/>
                         <label for="phone">Phone number</label>
                         <input type="tel" placeholder="Phone number" name="Telephone number" id="phone" class="form-input" />
-                        <p>
-                            Have you worked out with a trainer before?
+                    <p>
+                        Have you worked out with a trainer before?
+                        <span class="radio-wrapper">
                             <input type="radio" name="trainer-confirm" id="trainer-yes" />
                             <label for="trainer-yes">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
                             <input type="radio" name="trainer-confirm" id="trainer-no" />
                             <label for="trainer-no">No</label>
-                        </p>
-                        <p>
-                            <label for="checkbox">
-                            "I acknowledge that i am least 18 years of age"
-                            </label>
-                            <input type="checkbox" name="age-confirm" id="checkbox"/>
-                        </p>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="age-confirm" id="checkbox" />
+                            <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                        </span>
+                    </p>
                         <button type="submit">
                             Get running!
                         </button>
@@ -72,24 +101,32 @@
              </section>
         <!-- Hero Section ends  -->
         <section id="what-we-do" class="intro" >
-            <h2 clss="section-title primary-border"> What We Do </h2>
+            <h2 class="section-title primary-border"> What We Do </h2>
+                <div class="flex-row">
                 <p>
                 buthcer selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twwee synth Wes Anderson Thundercats viral bitters flannel meggins narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft 
                 </p>
-
+                </div>
             <!--"what you do" section-->
 
                 <section id="what-you-do" class="steps">
 
-           
-                    <h2 class="section-title secondary-border">What You Do</h2>
-
-                        <div>
-                            <img src="./assets/images/step-1.svg" alt="" />
-                                 <h3>Step 1: </span>Fill Out the Form Above.</span></h3>
+                    <div class="flex-row">
+                    <h2 class="section-title secondary-border">What You Do</h2> </div>
+                        
+                    <div class="step">
+                            <h3>Step 1.</h3>
+                            <div class="step-info">
+                                <div class="step-img">
+                                    <img src="./assets/images/step-1.svg" alt="" />
+                                </div>
+                                <div class="step-text">
+                                    <h4>Fill Out The Form Above</h4>
                                     <p>You're already here, so why not?</p>
+                                </div>
+                            </div>
                         </div>
-
+                  
                          <div>
                              <img src="./assets/images/step-2.svg" alt="" />
                                  <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
@@ -111,13 +148,16 @@
 
         <!--"meet the trainers section"-->
         <section id="your-trainers" class="trainers" >
-            <h2 class="section-title primary-border">Meet the Trainers</h2>
+            <div class="flex-row">
+            <h2 class="section-title primary-border">Meet the Trainers</h2></div>
             <article class="trainer">
                 <img src="./assets/images/trainer-1.jpg" alt="Aron Stephens in his workout clothes, ready to pump iron" />
                 <div class="trainer-bio text-left">
                     <h3>Arron Stephens</h3>
                     <h4>Speed / Strength</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commmodi saepe culpa sed 
+                     itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                    </p>
                 </div>
             </article>
 
@@ -170,18 +210,18 @@
                 </address>
              
         </div>
-    <div class="contact-form">
-        <h3>Contact Us</h3>
-        <form>
-            <label for="contact-name">Your Name</label>
-            <input type="text" id="contact-name" placeholder="Your Name" />
-    
-            <label for="contact-message">Message</label>
-            <textarea id="contact-message" placeholder="Message"></textarea>
-    
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+<div class="contact-form">
+    <h3>Contact Us</h3>
+    <form>
+        <label for="contact-name">Your Name</label>
+        <input type="text" id="contact-name" placeholder="Your Name" />
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" placeholder="Message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.77055490621!2d-94.21305389999999!3d39.0205472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c11094b26ebff7%3A0x392c6f790927714c!2s927%20NW%20Scenic%20Dr%2C%20Grain%20Valley%2C%20MO%2064029!5e0!3m2!1sen!2sus!4v1656966334041!5m2!1sen!2sus"
