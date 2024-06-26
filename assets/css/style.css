@@ -478,6 +478,10 @@ article ul li {
         flex: 100%;
         
     }
+    .step-img img {
+        display: none;
+    }
+
 }
 
 /* BREAKPOINT FOR 575PX */
@@ -492,10 +496,10 @@ article ul li {
         width: 95%;
     }
 
-
     .step-img img {
         display: none;
     }
+
     .intro p {
         width: 100%;
     }
