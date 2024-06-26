@@ -476,6 +476,7 @@ article ul li {
 
     .step-text {
         flex: 100%;
+        
     }
 }
 
@@ -491,6 +492,10 @@ article ul li {
         width: 95%;
     }
 
+
+    .step-img img {
+        display: none;
+    }
     .intro p {
         width: 100%;
     }
